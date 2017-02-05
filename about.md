@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello! 
+
+I'm some kind a ned guy who loves code, Rock n' Roll, and cars (I recently own a 2012 Ford Fiesta SE)! I'm a freak workaholic too! So don't blame on me and enjoy my GitHub Repositories!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I relly dont have more informations about me, maybe one day I'll be updating this part of my repositorie website! HAHAHA
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Personal Email](mailto:luzejunior94@gmail.com)
+[Professional Email](mailto:luzenildojunior@lavid.ufpb.br)
