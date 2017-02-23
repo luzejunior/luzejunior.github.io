@@ -397,3 +397,7 @@ As dificuldades que eu tive foram para entender o funcionamento do Brensenham ge
 [Drawing Line Using Bresenham Algorithm](http://tech-algorithm.com/articles/drawing-line-using-bresenham-algorithm/)
 
 [Bresenham's Line Drawing Algorithm in Computer Graphics - Part 1 What is Bresenham's Algorithm Youtube Video.](https://www.youtube.com/watch?v=5NV7HDI4xWk)
+
+### GitHub do código.
+
+Para baixar o código fonte deste trabalho, você pode utilizar o meu repositório no gitHub: [luzejunior/CG_Project1.](https://github.com/luzejunior/CG_Project1)
