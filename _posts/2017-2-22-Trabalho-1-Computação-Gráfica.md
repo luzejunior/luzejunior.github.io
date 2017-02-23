@@ -94,5 +94,16 @@ Nesta implementação, foram utilizadas 4 váriaveis de controle para incrementa
 	int incrementY = 0; //Variável que controla o incremento do Y no plano cartesiano.
 	int incrementY1 = 0; //Variável auxiliar que controla o incremento do Y no plano cartesiano.
 
+De maneira geral, para modificar essas variáveis de controle, foram criadas algumas regras para elas, são elas:
+* Caso DeltaX seja menor que 0, normaliza-se o DeltaX e faz com que as variáveis incrementX e incrementX1 sejam igual a -1.
+* Caso DeltaX seja maior que 0, faz com que as variáveis incrementX e incrementX1 sejam igual a -1.
+* Caso DeltaY seja menor que 0, normaliza-se o DeltaY e faz com que a variável incrementY seja igual a -1.
+* Caso DeltaY seja maior que 0, faz com que a variável incrementY seja igual a 1.
+* Caso DeltaY seja maior que Delta X, inverte-se os deltas (DeltaY passa a ter valor de DeltaX e vice-versa) e:
+	* Testa se o incrementoY é menor que 0, pois caso essa condição seja verdadeira, isso quer dizer que DeltaY era menor do que 0, logo, DeltaX será igual a -DeltaX.
+	* Caso DeltaX seja menor que 0, normaliza-se o DeltaX e faz com que a variável incrementY1 seja igual a -1.
+	* Caso DeltaX seja maior que 0, faz com que a variáel incrementY1 seja igual a 1.
+	* Faz com que a variável incrementX1 seja igual a 0.
+
 
 ### DrawTriangle:
