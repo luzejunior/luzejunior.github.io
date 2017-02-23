@@ -3,7 +3,7 @@ layout: post
 title: Trabalho 1 - Brensenham Algorithm.
 ---
 
-Trabalho de implementação em C++ do algoritmo de Brensenham utilizando OpenGL.
+Trabalho de implementação em C++ do algoritmo de Brensenham utilizando OpenGL para desenhar Pontos, Linhas e Triangulos.
 
 ### Introdução:
 
