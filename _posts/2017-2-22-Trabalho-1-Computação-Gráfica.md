@@ -50,6 +50,18 @@ Portanto, juntando os dois, para pintarmos o pixel no centro da janela, temos qu
 
 ![Pixel na metade da tela]({{ site.baseurl }}/images/pixel0X0Y.png)
 
+Como o nosso array da memoria de video é linear, temos que a posição REAL no array, o elemento Y deverá ser multiplicado pela quantidade de colunas da imagem, e tudo isso deverá ser multiplicado pela quantidade de elementos do pixel: Neste caso, 4 elemento (RGBA).
+
+Logo, o nosso codigo final ficará:
+
+	void putPixel(int x, int y, int RGBA[4]){
+		int print_position = ((x+(IMAGE_WIDTH/2)) + (((IMAGE_HEIGHT/2)-y) * IMAGE_WIDTH)) * 4; //Posição do Array da memória onde o Pixel vai ser pintado.
+		//Definição do array dos pixels na tela.
+		for(int i = 0; i<4; i++){
+			FBptr[print_position+i] = RGBA[i];
+		}
+	}
+
 ### DrawLine:
 
 ### DrawTriangle:
