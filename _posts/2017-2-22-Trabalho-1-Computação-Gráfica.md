@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Trabalho 1 - Brensehan Algorithm.
+title: Trabalho 1 - Brensenham Algorithm.
 ---
 
-Trabalho de implementação em C++ do algoritmo de Brensehan utilizando OpenGL.
+Trabalho de implementação em C++ do algoritmo de Brensenham utilizando OpenGL.
 
 ### Introdução:
 
@@ -63,5 +63,36 @@ Logo, o nosso codigo final ficará:
 	}
 
 ### DrawLine:
+
+Para desenharmos uma linha na tela, nós temos que saber quais pixels nós temos que pintar na janela. A função drawLinr() recebe como paramêtro um X0, um Y0 e uma cor para essa coordenada, e um X1, um Y1 e uma cor para essa coordenada. O que essa função faz é pintar vários pixels da coordenada (X0,Y0), até a coordenada (X1, Y1). Para isso, nós utilizamos o chamado Algoritmo de Brensenham, que é um algoritmo utilizado para desenhar linhas em paineis digitais (ou telas de LCD que utilizam Pixels).
+
+Abaixo temos um exemplo simplificado de um código de Brensenham para o primeiro octante:
+
+	int deltaX = x1 - x0; //Valor de DeltaX
+	int deltaY = y1 - y0; //Valor de DeltaY
+	int j = y0; //Inicializando variável J, que corresponde ao Y do plano cartesiano.
+	int maxNumber = deltaX; //Numero máximo de pixels que vai ser pintado.
+	int error = (maxNumber)/2;
+	int i = x0;
+	for(int k=0; k<=maxNumber; k++){	
+		putPixel(i, j, RGBA);
+		error += deltaY;
+		if(error >= deltaX){
+			j += 1;
+			error -= deltaX;
+		}else{
+			i += 1;
+		}	
+	}
+
+O problema é que o algoritmo só funciona para o primeiro octante de uma esfera. Então existem adaptações do código para que ele funcione de forma geral, ou seja, em todos os octantes.
+
+Nesta implementação, foram utilizadas 4 váriaveis de controle para incrementar os valores das coordenadas de X e Y a serem pintadas na tela. Todas elas foram inicializadas com 0, e são modificadas para 1 ou -1 caso seja necessário.
+
+	int incrementX = 0; //Variável que controla o incremento do X no plano cartesiano.
+	int incrementX1 = 0; //Variável auxiliar que controla o incremento do X no plano cartesiano.
+	int incrementY = 0; //Variável que controla o incremento do Y no plano cartesiano.
+	int incrementY1 = 0; //Variável auxiliar que controla o incremento do Y no plano cartesiano.
+
 
 ### DrawTriangle:
