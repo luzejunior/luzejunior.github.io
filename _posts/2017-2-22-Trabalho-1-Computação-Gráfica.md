@@ -380,7 +380,7 @@ O triangulo a seguir deve aparecer na tela:
 
 ![Exemplo da função drawTriangle]({{ site.baseurl }}/images/drawTriangle.png)
 
-### Resultados, Melhoras e Dificuldades:
+### Resultados, Melhorias e Dificuldades:
 
 Com essa implementação do algoritmo de Brensenham o usuário é capaz de desenhar linhas em qualquer um dos octantes da janela do OpenGL apenas passando as coordenadas (X0, Y0) e (X1, Y1) desejadas. Também é possivel desenhar um trinangulo definindo na função drawTriangle as coordenadas dos pontos (X0, Y0), (X1, Y1) e (X2, Y2). Todos os testes em todos os octantes foram feitos, a fim de testar a eficiencia do código como exemplificado na seção DrawLines.
 
@@ -388,9 +388,12 @@ Para melhorar essa implementação, deveria ser feito uma classe em C++ para tra
 
 As dificuldades que eu tive foram para entender o funcionamento do Brensenham geral para todos os octantes, foram feitos muitos calculos no caderno para entender qual incremento e qual decremento deveria utilizar e porquê. Alguns materiais foram muito importantes para ajudar a entender o algoritmo - Eles estarão descritos na seção de referencias. 
 
-### Referencias:
+### Referências:
 
-*[BRESHENHAM’S ALGORITHM, Kenneth I. Joy. Visualization and Graphics Research Group, Department of Computer Science, University of California, Davis.](http://graphics.idav.ucdavis.edu/education/GraphicsNotes/Bresenhams-Algorithm.pdf)
-*[Bresenham's line algorithm article on Wikipedia.](https://en.wikipedia.org/wiki/Bresenham's_line_algorithm)
-*[Drawing Line Using Bresenham Algorithm](http://tech-algorithm.com/articles/drawing-line-using-bresenham-algorithm/)
-*[Bresenham's Line Drawing Algorithm in Computer Graphics - Part 1 What is Bresenham's Algorithm Youtube Video.](https://www.youtube.com/watch?v=5NV7HDI4xWk)
+[BRESHENHAM’S ALGORITHM, Kenneth I. Joy. Visualization and Graphics Research Group, Department of Computer Science, University of California, Davis.](http://graphics.idav.ucdavis.edu/education/GraphicsNotes/Bresenhams-Algorithm.pdf)
+
+[Bresenham's line algorithm article on Wikipedia.](https://en.wikipedia.org/wiki/Bresenham's_line_algorithm)
+
+[Drawing Line Using Bresenham Algorithm](http://tech-algorithm.com/articles/drawing-line-using-bresenham-algorithm/)
+
+[Bresenham's Line Drawing Algorithm in Computer Graphics - Part 1 What is Bresenham's Algorithm Youtube Video.](https://www.youtube.com/watch?v=5NV7HDI4xWk)
