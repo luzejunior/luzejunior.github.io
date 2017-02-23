@@ -30,7 +30,7 @@ No OpenGL, temos que os elementos 0 até 3 do array acima são o primeiro pixel 
 
 ![Pixel na parte Superior esquerda da janela]({{ site.baseurl }}/images/PixelPonto0.png)
 
-A minha implementação do PutPixel toma como base que a origem do sistema de coordenadas é o centro da janela, portanto, temos que a posição do X deverá ser a metade da largura da tela somado com o valor X recebido como parâmetro pela função PutPixel:
+A minha implementação do PutPixel toma como base que a origem do sistema de coordenadas é o centro da janela ou o (0,0) do plano cartesiano, portanto, temos que a posição do X deverá ser a metade da largura da tela somado com o valor X recebido como parâmetro pela função PutPixel:
 
 	pixel_na_metade_da_largura = x + (LARGURA_DA_JANELA/2);
 
