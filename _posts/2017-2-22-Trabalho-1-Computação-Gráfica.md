@@ -28,7 +28,7 @@ Os elementos são dispostos da seguinte maneira na memória de video: {R}{G}{B}{
 
 No OpenGL, temos que os elementos 0 até 3 do array acima são o primeiro pixel na janela, ou seja, se caso queiramos pintar o ponto X=0 e Y=0, o pixel pintado será o primeiro ponto do lado esquerdo superior da janela.
 
-//Imagem do pixel sendo pintado no ponto superior.
+![Pixel na parte Superior esquerda da janela]({{ site.baseurl }}/images/PixelPonto0.png)
 
 A minha implementação do PutPixel toma como base que a origem do sistema de coordenadas é o centro da janela, portanto, temos que a posição do X deverá ser a metade da largura da tela somado com o valor X recebido como parâmetro pela função PutPixel:
 
@@ -36,13 +36,20 @@ A minha implementação do PutPixel toma como base que a origem do sistema de co
 
 Logo, se o usuário setar X=0, a posição em memória que o pixel será pintado será a partir da metade do tamanho da janela, como exemplificado na imagem a seguir:
 
-//Imagem do pixel sendo pintado no centro da tela.
+![Pixel na metade da largura da tela]({{ site.baseurl }}/images/pixel0x.png)
 
 Tomando o mesmo pensamento para Y, temos que para que o pixel seja pintado na metade da tela do eixo Y, temos que subtrair da metade da altura da tela o valor de Y passado como parâmetro.
 
 	pixel_na_metade_da_altura = (ALTURA_DA_JANELA/2) - y;
 
+![Pixel na metade da altura da tela]({{ site.baseurl }}/images/pixel0Y.png)
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Portanto, juntando os dois, para pintarmos o pixel no centro da janela, temos que: 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+	pixel_no_centro_da_janela = x + (LARGURA_DA_JANELA/2) + ((ALTURA_DA_JANELA/2) - y);
+
+![Pixel na metade da tela]({{ site.baseurl }}/images/pixel0X0Y.png)
+
+### DrawLine:
+
+### DrawTriangle:
