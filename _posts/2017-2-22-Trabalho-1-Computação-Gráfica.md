@@ -327,6 +327,41 @@ Juntando todos os octantes, podemos desenhar na tela a seguinte figura:
 
 ![Exemplo de todos os octantes]({{ site.baseurl }}/images/alloctants.png)
 
+##### Interpolação de Cores.
+
+Para interpolar as cores das linhas, devemos primeiro pegar o numero de cores para cada RGB do pixel e dividir pela maior distancia dos pixels:
+
+	colorGradientRatio = 256/maior_Distancia;
+
+Depois deveremos criar um RGBA2 que deverá ser igual ao RGBA do ponto (X0, Y0).
+
+Então, com um aninho de ifs, devemos pegar a primeira Cor RGBA do ponto (X0, Y0) e verificar qual das cores é maior que 0, então para cada interação do laço for, devemos decrementar do valor de RGBA2 correspondente a cor maior que 0 o valor de colorGradientRatio.
+
+De modo semelhante, com a segunda cor RGBA do ponto (X1, Y1), devemos verificar qual a cor que é maior que 0, e para cada interação do laço for, devemos incrementar do valor de RGBA2 correspondente a cor maior que 0 o valor de colorGradientRatio.
+
+Um exemplo está descrito a seguir:
+
+	if(RGBA0[0] > 0 && RGBA2[0] <= 255){
+		RGBA2[0] -= colorGradientRatio;
+	}
+	else if(RGBA0[1] > 0 && RGBA2[1] <= 255){
+		RGBA2[1] -= colorGradientRatio;
+	}
+	else if(RGBA0[2] > 0 && RGBA2[2] <= 255){
+		RGBA2[2] -= colorGradientRatio;
+	}
+	if(RGBA1[0] > 0 && RGBA2[0] <= 255){
+		RGBA2[0] += colorGradientRatio;
+	}
+	if(RGBA1[1] > 0 && RGBA2[1] <= 255){
+		RGBA2[1] += colorGradientRatio;
+	}
+	if(RGBA1[2] > 0 && RGBA2[2] <= 255){
+		RGBA2[2] += colorGradientRatio;
+	}
+
+Então devemos sempre pintar o pixel com o resultado do RGBA2 criado, fazendo assim com que as cores sejam interpoladas.
+
 ### DrawTriangle:
 
 A função drawTriangle tem como objetivo pegar três coordenadas (X0, Y0), (X1, Y1), (X2, Y2) e formar um triângulo com elas.
@@ -344,3 +379,18 @@ Para testar a nossa função, iremos definir uma chamada para drawTriangle como 
 O triangulo a seguir deve aparecer na tela:
 
 ![Exemplo da função drawTriangle]({{ site.baseurl }}/images/drawTriangle.png)
+
+### Resultados, Melhoras e Dificuldades:
+
+Com essa implementação do algoritmo de Brensenham o usuário é capaz de desenhar linhas em qualquer um dos octantes da janela do OpenGL apenas passando as coordenadas (X0, Y0) e (X1, Y1) desejadas. Também é possivel desenhar um trinangulo definindo na função drawTriangle as coordenadas dos pontos (X0, Y0), (X1, Y1) e (X2, Y2). Todos os testes em todos os octantes foram feitos, a fim de testar a eficiencia do código como exemplificado na seção DrawLines.
+
+Para melhorar essa implementação, deveria ser feito uma classe em C++ para tratar exclusivamente do pixel, com metodos de Get e Set das coordenadas. Assim, o código ficaria mais enxuto e mais organizado, pois você definiria apenas o pixel e as funções drawLine e drawTriangle receberiam esses pixels como parâmetro. Outra melhoria seria utilizar uma classe ou uma função para fazer a interpolação das cores, deixando o código mais organizado.
+
+As dificuldades que eu tive foram para entender o funcionamento do Brensenham geral para todos os octantes, foram feitos muitos calculos no caderno para entender qual incremento e qual decremento deveria utilizar e porquê. Alguns materiais foram muito importantes para ajudar a entender o algoritmo - Eles estarão descritos na seção de referencias. 
+
+### Referencias:
+
+*[BRESHENHAM’S ALGORITHM, Kenneth I. Joy. Visualization and Graphics Research Group, Department of Computer Science, University of California, Davis.](http://graphics.idav.ucdavis.edu/education/GraphicsNotes/Bresenhams-Algorithm.pdf)
+*[Bresenham's line algorithm article on Wikipedia.](https://en.wikipedia.org/wiki/Bresenham's_line_algorithm)
+*[Drawing Line Using Bresenham Algorithm](http://tech-algorithm.com/articles/drawing-line-using-bresenham-algorithm/)
+*[Bresenham's Line Drawing Algorithm in Computer Graphics - Part 1 What is Bresenham's Algorithm Youtube Video.](https://www.youtube.com/watch?v=5NV7HDI4xWk)
