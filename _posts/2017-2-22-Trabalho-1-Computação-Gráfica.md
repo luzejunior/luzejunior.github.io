@@ -95,15 +95,105 @@ Nesta implementação, foram utilizadas 4 váriaveis de controle para incrementa
 	int incrementY1 = 0; //Variável auxiliar que controla o incremento do Y no plano cartesiano.
 
 De maneira geral, para modificar essas variáveis de controle, foram criadas algumas regras para elas, são elas:
-* Caso DeltaX seja menor que 0, normaliza-se o DeltaX e faz com que as variáveis incrementX e incrementX1 sejam igual a -1.
+* Caso DeltaX seja menor que 0, inverte-se o sinal de DeltaX e faz com que as variáveis incrementX e incrementX1 sejam igual a -1.
 * Caso DeltaX seja maior que 0, faz com que as variáveis incrementX e incrementX1 sejam igual a -1.
-* Caso DeltaY seja menor que 0, normaliza-se o DeltaY e faz com que a variável incrementY seja igual a -1.
+* Caso DeltaY seja menor que 0, inverte-se o sinal de DeltaY e faz com que a variável incrementY seja igual a -1.
 * Caso DeltaY seja maior que 0, faz com que a variável incrementY seja igual a 1.
 * Caso DeltaY seja maior que Delta X, inverte-se os deltas (DeltaY passa a ter valor de DeltaX e vice-versa) e:
 	* Testa se o incrementoY é menor que 0, pois caso essa condição seja verdadeira, isso quer dizer que DeltaY era menor do que 0, logo, DeltaX será igual a -DeltaX.
-	* Caso DeltaX seja menor que 0, normaliza-se o DeltaX e faz com que a variável incrementY1 seja igual a -1.
-	* Caso DeltaX seja maior que 0, faz com que a variáel incrementY1 seja igual a 1.
+	* Caso DeltaX seja menor que 0, inverte-se o sinal de DeltaX e faz com que a variável incrementY1 seja igual a -1.
+	* Caso DeltaX seja maior que 0, faz com que a variável incrementY1 seja igual a 1.
 	* Faz com que a variável incrementX1 seja igual a 0.
 
+Um exemplo de implementação dessas regras pode ser visto a seguir:
+
+	if (deltaX < 0){
+		deltaX = -deltaX;
+		incrementX = -1;
+		incrementX1 = -1;
+	}else if(deltaX > 0){
+		incrementX = 1;
+		incrementX1 = 1;
+	}
+	if(deltaY < 0){
+		deltaY = -deltaY;
+		incrementY = -1;
+	}else if(deltaY > 0){
+		incrementY = 1;
+	}
+	if(deltaY > deltaX){
+		int tmp1 = deltaX;
+		deltaX = deltaY;
+		deltaY = tmp1;
+		if (incrementY<0){
+			deltaX = -deltaX;
+		}
+		if(deltaX<0){
+			incrementY1 = -1;
+			deltaX = -deltaX;
+		}
+		else if(deltaX>0){
+			incrementY1 = 1;
+		}
+		incrementX1 = 0;
+	}
+
+Com o uso dessas variáveis de incremento, temos agora que adaptar o nosso algoritmo. Logo, como o algoritmo funciona calculando o "erro" para saber em qual coordenada X e Y devemos pintar na janela:
+* O algoritmo utiliza o maior delta para saber quantos pixels serão pintados na tela.
+* Primeiro pinta-se o ponto na primeira Coordenada X, e Y passada por parâmetro.
+* Incrementa o erro com deltaY.
+* Se o erro for menor ou igual ao DeltaX, deve-se incrementar X com o valor de incrementX, Y com o valor de incrementY e deve-se decrementar do erro o valor de DeltaX.
+* Se o erro for maior que DeltaX, deve-se incrementar X com o valor de incrementX1 e Y com o valor de incrementY1.
+* Repetir o procedimento para todos os pixels que devem ser pintados na tela.
+
+Um exemplo do algoritmo com os incrementos:
+
+	int maior_Distancia = deltaX; //Numero máximo de pixels que vai ser pintado.
+	if(deltaX == 0){
+		maior_Distancia = deltaY;
+	}
+	int i = x0;
+	int j = y0;
+	for(int k=0; k<=maior_Distancia; k++){
+		putPixel(i, j, RGBA2);
+		error += deltaY;
+		if(error >= deltaX){
+			j += incrementY;
+			i += incrementX;
+			error -= deltaX;
+		}else{
+			j += incrementY1;
+			i += incrementX1;
+		}	
+	}
+
+##### Para o primeiro e quinto Octante:
+
+Digamos que queremos desenhar uma linha no primeiro octante, iremos utilizar a seguinte chamada da função drawLine:
+
+	//drawLine recebe como parâmetro: x0, y0, primeira cor, x1, y1, segunda cor.
+	drawLine(0,0, colorRed, 200, 100, colorGreen); //1 octante
+
+Temos neste caso que:
+* DeltaX é maior que 0, logo:
+	* incrementX = 1;
+	* incrementX1 = 1;
+* DeltaY também é maior que 0, logo:
+	* incrementY = 1;
+	* incrementY1 = 0;
+
+Com isso já definido, temos que, para cada vez que o erro for menor que deltaX, só devemos incrementar a coordenada X, enquanto que quando o "erro" é maior ou igual a DeltaX, devemos incrementar as coordenadas X e Y.
+
+![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant1.png)
+
+O quinto octante é o inverso do primeiro octante, ou seja, DeltaX e DeltaY são menores que 0, logo:
+* incrementX = -1;
+* incrementX1 = -1;
+* incrementY = -1;
+* incrementY1 = 0;
+
+Com isso já definido, temos que, para cada vez que o erro for menor que deltaX, só devemos decrementar a coordenada X, enquanto que quando o "erro" é maior ou igual a DeltaX, devemos decrementar as coordenadas X e Y.
+
+![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant5.png)
 
 ### DrawTriangle:
