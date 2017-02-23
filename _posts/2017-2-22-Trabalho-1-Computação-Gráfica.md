@@ -187,6 +187,11 @@ Com isso já definido, temos que, para cada vez que o erro for menor que deltaX,
 ![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant1.png)
 
 O quinto octante é o inverso do primeiro octante, ou seja, DeltaX e DeltaY são menores que 0, logo:
+
+	//drawLine recebe como parâmetro: x0, y0, primeira cor, x1, y1, segunda cor.
+	drawLine(0,0, colorRed, -200, -100, colorGreen); //5 octante
+
+Portanto temos que:
 * incrementX = -1;
 * incrementX1 = -1;
 * incrementY = -1;
@@ -195,5 +200,49 @@ O quinto octante é o inverso do primeiro octante, ou seja, DeltaX e DeltaY são
 Com isso já definido, temos que, para cada vez que o erro for menor que deltaX, só devemos decrementar a coordenada X, enquanto que quando o "erro" é maior ou igual a DeltaX, devemos decrementar as coordenadas X e Y.
 
 ![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant5.png)
+
+##### Para o segundo e sexto Octante:
+
+Digamos que queremos desenhar uma linha no segundo octante, iremos utilizar a seguinte chamada da função drawLine:
+
+	//drawLine recebe como parâmetro: x0, y0, primeira cor, x1, y1, segunda cor.
+	drawLine(0,0, colorRed, 100, 200, colorGreen); //1 octante
+
+Temos neste caso que:
+* DeltaX é maior que 0, logo:
+	* incrementX = 1;
+	* incrementX1 = 1;
+* DeltaY também é maior que 0, logo:
+	* incrementY = 1;
+	* incrementY1 = 0;
+
+O problema neste caso, é que DeltaY é maior que deltaX, ou seja, deve-se inverter essas coordenadas e:
+* Tornar o incrementY1 = 1;
+* Tornar o incrementX1 = 0;
+
+Com isso, temos que: 
+* incrementX = 1;
+* incrementX1 = 0;
+* incrementY = 1;
+* incrementY1 = 1;
+
+Por isso, podemos então dizer que para cada vez que o erro for menor que deltaX, devemos incrementar apenas a coordenada Y, enquanto que quando o "erro" é maior ou igual a DeltaX, devemos incrementar as coordenadas X e Y.
+
+![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant2.png)
+
+O sexto octante é o inverso do primeiro octante, ou seja, DeltaX e DeltaY são menores que 0, logo:
+
+	//drawLine recebe como parâmetro: x0, y0, primeira cor, x1, y1, segunda cor.
+	drawLine(0,0, colorRed, -100, -200, colorGreen); //5 octante
+
+Portanto temos que:
+* incrementX = -1;
+* incrementX1 = 0;
+* incrementY = -1;
+* incrementY1 = -1;
+
+Com isso já definido, temos que, para cada vez que o erro for menor que deltaX, devemos decrementar apenas a coordenada Y, enquanto que quando o "erro" é maior ou igual a DeltaX, devemos decrementar as coordenadas X e Y.
+
+![Exemplo de linha no primeiro octante]({{ site.baseurl }}/images/octant6.png)
 
 ### DrawTriangle:
