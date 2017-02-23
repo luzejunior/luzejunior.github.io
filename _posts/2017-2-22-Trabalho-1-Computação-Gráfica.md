@@ -323,4 +323,24 @@ Com isso já definido, temos que, para cada vez que o erro for menor que deltaX,
 
 ![Exemplo de linha no oitavo octante]({{ site.baseurl }}/images/octant8.png)
 
+Juntando todos os octantes, podemos desenhar na tela a seguinte figura:
+
+![Exemplo de todos os octantes]({{ site.baseurl }}/images/alloctants.png)
+
 ### DrawTriangle:
+
+A função drawTriangle tem como objetivo pegar três coordenadas (X0, Y0), (X1, Y1), (X2, Y2) e formar um triângulo com elas.
+
+Essa função tem uma implementação muito simples, pois pode-se utilizar a função já feita de desenhar linhas para todos os octantes. Logo, para que o triangulo esteja correto, devemos criar três chamadas da função drawLine como descrito a seguir:
+
+	drawLine(x0, y0, RGBA0, x1, y1, RGBA1);
+	drawLine(x0, y0, RGBA0, x2, y2, RGBA2);
+	drawLine(x1, y1, RGBA1, x2, y2, RGBA2);
+
+Para testar a nossa função, iremos definir uma chamada para drawTriangle como descrita a seguir:
+
+	drawTriangle(-100, 0, colorRed, -100, 90, colorGreen, 100, 0, colorBlue);
+
+O triangulo a seguir deve aparecer na tela:
+
+![Exemplo da função drawTriangle]({{ site.baseurl }}/images/drawTriangle.png)
