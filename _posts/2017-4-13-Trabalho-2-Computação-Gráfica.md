@@ -96,10 +96,10 @@ Depois de criada a matriz view projection, devemos multiplicar ela pelos vetores
  							objData->vertexList[o->vertex_index[2]]->e[2], 
  							1.0f);
 
-  	//M_V_Projection to vertices
-  	v1 = v1 * M_Model_View_Projection;
-  	v2 = v2 * M_Model_View_Projection;
-  	v3 = v3 * M_Model_View_Projection;
+	//M_V_Projection to vertices
+	v1 = v1 * M_Model_View_Projection;
+	v2 = v2 * M_Model_View_Projection;
+	v3 = v3 * M_Model_View_Projection;
 
   	Logo, nós temos todos os vértices no espaço projetivo, ou de Recorte.
 
@@ -108,9 +108,9 @@ Depois de criada a matriz view projection, devemos multiplicar ela pelos vetores
 Com os todos os vértices no espaço projetivo, para transformarmos para o espaço canônico, devemos dividir todos os valores de X, Y e Z, pelo valor do espaço homogêneo W, ou o ultimo valor do vetor. Logo,
 
 	//Canonic Space Homog.
-  	v1 = v1 / v1[3];
-  	v2 = v2 / v2[3];
-  	v3 = v3 / v3[3];
+	v1 = v1 / v1[3];
+	v2 = v2 / v2[3];
+	v3 = v3 / v3[3];
 
 Agora nós temos o nossos vétices no espaço canônico, ou seja, todos os nossos vértices estão dentro de um hexaedro de visualização (Frustum), e oderão ser projetados na tela.
 
@@ -139,9 +139,9 @@ Logo, temos:
 Devemos então multiplicar todos os vetores do espaço canônico pela matriz de tela:
 
 	//Espaço de tela:
-  	v1 = v1 * M_Screen;
-  	v2 = v2 * M_Screen;
-  	v3 = v3 * M_Screen;
+	v1 = v1 * M_Screen;
+	v2 = v2 * M_Screen;
+	v3 = v3 * M_Screen;
 
 Com isso podemos utilizar a nossa função DrawTriangle, passando como parametro o X e o Y de cada vetor dos vértices.
 
@@ -149,7 +149,18 @@ Com isso podemos utilizar a nossa função DrawTriangle, passando como parametro
 
 ### Resultado:
 
+O resultado da implementação pode ser visto na figura a seguir:
 
+Uma breve comparação entre o OBJLoader e a minha implementação:
+
+Um video aplicando uma transformação de rotação no objeto:
+
+Tentando abrir outro objeto:
+
+### Dificuldades:
+
+A maior dificuldade que eu tive foi porque a minha implementação do Brensehan usava como base as coordenadas normais de X e Y, onde o valor de X = 0 e Y = 0 era exatamente o centro da tela. Este problema foi prontamente detectado e resolvido alterando a função PutPixel pra considerar as coordenadas da tela do OpenGL.
+Outro problema que eu tive foi em relação aos pontos muito próximos. Quando tinha um vértice onde o X0 era igual o X1, o programa não conseguir calcular e dava erro. Primeiramente tentei corrigir este erro adicionando mais um no valor de X0 igual ao X1, mas ao rotacionar o objeto, quando ele dava uma volta completa, o programa fechava acusando erro. Logo, este problema foi resolvido alterando a funcão drawLine para quando (X0,Y0) fosse igual a (X1,Y1), ele desenhar apenas no valor (X0,Y0).
 
 ### Referências:
 
