@@ -151,9 +151,15 @@ Com isso podemos utilizar a nossa função DrawTriangle, passando como parametro
 
 O resultado da implementação pode ser visto na figura a seguir:
 
+![Macaco Centrado na Origem:]({{ site.baseurl }}/images/Monkey0x0y.png) ![Macaco Rotacionado em 25Graus no eixo Y]({{ site.baseurl }}/images/monkey0x30y.png)
+
 Uma breve comparação entre o OBJLoader e a minha implementação:
 
+![Comparação na Origem]({{ site.baseurl }}/images/objLoaderVSMyGL.png) ![Comparação Rotacionado]({{ site.baseurl }}/images/rotatedComparison.png)
+
 Um video aplicando uma transformação de rotação no objeto:
+
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=RQmm4VeIV_4" frameborder="0" allowfullscreen></iframe>
 
 Tentando abrir outro objeto:
 
