@@ -163,6 +163,10 @@ Um video aplicando uma transformação de rotação no objeto:
 
 Tentando abrir outro objeto:
 
+Neste exemplo consegui desenhar um Chevrolet Camaro com um Obj free obtido online:
+
+![Camar]({{ site.baseurl }}/images/Camaro.png)
+
 ### Dificuldades:
 
 A maior dificuldade que eu tive foi porque a minha implementação do Brensehan usava como base as coordenadas normais de X e Y, onde o valor de X = 0 e Y = 0 era exatamente o centro da tela. Este problema foi prontamente detectado e resolvido alterando a função PutPixel pra considerar as coordenadas da tela do OpenGL.
