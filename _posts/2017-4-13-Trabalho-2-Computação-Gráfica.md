@@ -165,7 +165,7 @@ Tentando abrir outro objeto:
 
 Neste exemplo consegui desenhar um Chevrolet Camaro com um Obj free obtido online:
 
-![Camar]({{ site.baseurl }}/images/Camaro.png)
+![Camaro]({{ site.baseurl }}/images/Camaro.png)
 
 ### Dificuldades:
 
@@ -174,13 +174,11 @@ Outro problema que eu tive foi em relação aos pontos muito próximos. Quando t
 
 ### Referências:
 
-[BRESHENHAM’S ALGORITHM, Kenneth I. Joy. Visualization and Graphics Research Group, Department of Computer Science, University of California, Davis.](http://graphics.idav.ucdavis.edu/education/GraphicsNotes/Bresenhams-Algorithm.pdf)
+[Camaro Low Poly 3D Obj, https://clara.io/, 2014.](https://clara.io/view/2aafff64-2305-4d66-98ff-ab51cb51a3b9#)
 
-[Bresenham's line algorithm article on Wikipedia.](https://en.wikipedia.org/wiki/Bresenham's_line_algorithm)
+[GLM Documentation.](http://glm.g-truc.net/glm.pdf)
 
-[Drawing Line Using Bresenham Algorithm](http://tech-algorithm.com/articles/drawing-line-using-bresenham-algorithm/)
-
-[Bresenham's Line Drawing Algorithm in Computer Graphics - Part 1 What is Bresenham's Algorithm Youtube Video.](https://www.youtube.com/watch?v=5NV7HDI4xWk)
+[Professor Slides and Octave Pipeline Implamentation](#)
 
 ### GitHub do código.
 
