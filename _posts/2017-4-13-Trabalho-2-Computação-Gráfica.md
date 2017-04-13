@@ -159,7 +159,7 @@ Uma breve comparação entre o OBJLoader e a minha implementação:
 
 Um video aplicando uma transformação de rotação no objeto:
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=RQmm4VeIV_4" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/RQmm4VeIV_4" frameborder="0" allowfullscreen></iframe>
 
 Tentando abrir outro objeto:
 
