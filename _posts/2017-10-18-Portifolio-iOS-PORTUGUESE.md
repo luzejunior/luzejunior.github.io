@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [PORTUGUESE] Portfólio de aplicativos iOS.
+title: PORTUGUESE - Portfolio de aplicativos iOS.
 ---
 
 Este é o meu portfólio de Aplicações iOS que eu desenvolvi. Aqui você vai encontrar todos os projetos que eu participei, e o meu objetivo é atualizar essa página sempre que possível!
