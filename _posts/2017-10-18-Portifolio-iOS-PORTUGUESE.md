@@ -5,7 +5,7 @@ title: PORTUGUESE - Portfolio de aplicativos iOS.
 
 Este é o meu portfólio de Aplicações iOS que eu desenvolvi. Aqui você vai encontrar todos os projetos que eu participei, e o meu objetivo é atualizar essa página sempre que possível!
 
-## Minha História com Desenvolvimento iOS:
+## Minha História como desenvolvedor iOS:
 
 Olá, caso você ainda não me conheça, você pode saber um pouco sobre minha pessoa na sessão ["About"](https://luzejunior.github.io/about/) deste site.
 Mas neste portfólio eu vou falar um pouco de como comecei a programar e mais que isso, aprendi a gostar desta linguagem de programação chamada Swift e tudo que envolve desenvolvimento mobile para iOS.
@@ -77,7 +77,18 @@ Mais uma vez, para o meu azar, o ministro apesar de gostar da aplicação, decid
 
 Você pode encontrar o código fonte deste aplicativo no meu GitHub: [Repositório MDS-BolsaFamilia](https://github.com/luzejunior/MDS-BolsaFamilia)
 
-## Planos Futuros:
+## Trabalhando como Freelancer:
 
 Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para Clientes, mas estou disponível para ser contratado. Tenho 2 anos de experiência com Swift, e estou sempre estudando pra aprender mais sobre a linguagem para melhorar o meu trabalho.
-Em breve colocarei o meu currículo aqui.
+
+Sou um cara metódico, e estabeleci que de começo estarei cobrando R$20 por hora trabalhada, com valor máximo mensal de R$2.000. Então se um projeto passar deste valor, eu consigo dividi-lo em alguns meses para trabalhar nele. Caso eu estipule um mês para terminar e por algum motivo pessoal eu acabe passando disto, você paga 1/3 do valor acordado por hora: ou seja, a cada três horas trabalhadas, você me paga R$20. Pode parecer complicado, mas vou explicar: Digamos que o acordo era um mês e R$2.000, mas caso eu não consiga cumprir a meta e passe mais um mês trabalhando no acordo inicial, o mês excedente lhe custará aproximadamente R$670. Claro que, se houver uma nova demanda no projeto, o mês excedente lhe custará mais R$2.000.
+
+Para trabalhar, costumo pegar um copo com agua, ligar alguma musica no Spotify e colocar o cronômetro para rodar. Reservo 4 horas por dia, podendo ser divido entre manhã e tarde, pois meu curso é período matutino (Manhã e tarde), ou tarde e noite, pois sou humano e as vezes preciso dormir pela manhã.
+
+Gosto muito de gerar relatório de atividades, então caso o cliente queira, posso gerar um breve relatório das atividades contendo horário de inicio, horário de termino, modificações feitas, duvidas, etc. Para gerenciar os projetos eu gosto muito de utilizar o GIT, portanto tenho conhecimento e certa facilidade com este tipo de ferramenta.
+
+Caso queira me contratar, você pode me encontrar no [Workana](https://www.workana.com/freelancer/7577f01765503cb46109e759038a8009).
+
+## E o futuro?
+
+Bem, minha pretenção é entrar em alguma empresa do ramo de desenvolvimento móvel e ser um dos melhores programadores da área. Quem sabe um dia trabalhar na apple, ou alguma dessas grandes empresas e ser destaque.
