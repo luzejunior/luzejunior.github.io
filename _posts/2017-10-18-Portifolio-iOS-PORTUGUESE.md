@@ -12,7 +12,7 @@ Mas neste portfólio eu vou falar um pouco de como comecei a programar e mais qu
 
 Desde criança sempre fui curioso para saber como as coisas funcionavam, e no começo da hera dos Smartphones eu sempre me perguntava como que aquilo tudo funcionava, e como que era a programação a este tipo de dispositivo.
 
-Um belo dia, no fim de 2015, muito tempo depois da minha infância, já de barba, na universidade e trabalhando no LAViD (Laboratório de Aplicações de Video Digital da Universidade Federal da Paraíba), apareceu a oportunidade de trabalhar em um projeto chamado de ("Culturi")[http://www.culturi.com.br/], que nada mais era que uma rede social de eventos em parceria com o Ministério da Cultura. Então, participando do projeto, fui escalado para fazer um aplicativo para iOS complementar ao Culturi completamente do zero, em no máximo dois meses. Problema nenhum, certo? ERRADO, pois eu não tinha NENHUMA experiência com Swift, muito menos um Mac.
+Um belo dia, no fim de 2015, muito tempo depois da minha infância, já de barba, na universidade e trabalhando no LAViD (Laboratório de Aplicações de Video Digital da Universidade Federal da Paraíba), apareceu a oportunidade de trabalhar em um projeto chamado de ["Culturi"](http://www.culturi.com.br/), que nada mais era que uma rede social de eventos em parceria com o Ministério da Cultura. Então, participando do projeto, fui escalado para fazer um aplicativo para iOS complementar ao Culturi completamente do zero, em no máximo dois meses. Problema nenhum, certo? ERRADO, pois eu não tinha NENHUMA experiência com Swift, muito menos um Mac.
 
 E é ai que começa a minha aventura de aprender a programar em uma linguagem relativamente simples, mas com uma arquitetura bem complexa em menos de um mês para desenvolver o mais rápido possível um aplicativo em dois meses. O projeto saiu, e se chama ["Meu olhar"](http://meuolhar.culturi.com.br/). Mas, infelizmente ele foi interrompido pelos novos ministros da cultura do nosso novo presidente da república no final de 2016.
 
@@ -46,32 +46,41 @@ Mais uma vez, para o meu azar, o ministro apesar de gostar da aplicação, decid
 
 #### Screenshots:
 
-![SplashScreen]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Splash.png)
-*SplashScreen*
+| ![SplashScreen]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Splash.png) |
+|:--:|
+| *SplashScreen* |
 
-![MainMenu]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-MainOff.png)
-*Main Menu com usuário deslogado.*
+| ![MainMenu]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-MainOff.png) |
+|:--:|
+| *Main Menu com usuário deslogado.* |
 
-![Login]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-LoginScreen.png)
-*Xib de Login*
+| ![Login]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-LoginScreen.png) |
+|:--:|
+| *Xib de Login* |
 
-![MainMenu]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-MainOn.png)
-*Main Menu com usuário Logado.*
+| ![MainMenu]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-MainOn.png) |
+|:--:|
+| *Main Menu com usuário Logado.* |
 
-![Calendário]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Calendario.png)
-*Calendário de Informações.*
+| ![Calendário]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Calendario.png) |
+|:--:|
+| *Calendário de Informações.* |
 
-![Maps]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Maps.png)
-*Maps com integração com API do google.*
+| ![Maps]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Maps.png) |
+|:--:|
+| *Maps com integração com API do google.* |
 
-![Programas]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Programas.png)![Criança_Feliz]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-CFeliz.png)
-*Tela com os principais programas do governo.*
+| ![Programas]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Programas.png)![Criança_Feliz]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-CFeliz.png) |
+|:--:|
+| *Tela com os principais programas do governo.* |
 
-![Sobre]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Sobre.png)
-*Tela de Sobre*
+| ![Sobre]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Sobre.png) |
+|:--:|
+| *Tela de Sobre* |
 
-![Social]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Social.png)
-*Tela de Social*
+| ![Social]({{ site.baseurl }}/images/BolsaFamilia/BolsaFamilia-Social.png) |
+|:--:|
+| *Tela de Social* |
 
 #### Código fonte:
 
