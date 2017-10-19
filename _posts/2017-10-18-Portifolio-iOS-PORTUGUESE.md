@@ -88,16 +88,16 @@ Você pode encontrar o código fonte deste aplicativo no meu GitHub: [Repositór
 
 ## Trabalhando como Freelancer:
 
-Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para Clientes, mas estou disponível para ser contratado. Tenho 2 anos de experiência com Swift, e estou sempre estudando pra aprender mais sobre a linguagem para melhorar o meu trabalho.
+Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para Clientes, mas estou disponível para ser contratado por alguma empresa que está precisando de um programador Swift. Tenho 2 anos de experiência com Swift, e estou sempre estudando pra aprender mais sobre a linguagem para melhorar o meu trabalho.
 
-Sou um cara metódico, e estabeleci que de começo estarei cobrando R$20 por hora trabalhada, com valor máximo mensal de R$2.000. Então se um projeto passar deste valor, eu consigo dividi-lo em alguns meses para trabalhar nele. Caso eu estipule um mês para terminar e por algum motivo pessoal eu acabe passando disto, você paga 1/3 do valor acordado por hora: ou seja, a cada três horas trabalhadas, você me paga R$20. Pode parecer complicado, mas vou explicar: Digamos que o acordo era um mês e R$2.000, mas caso eu não consiga cumprir a meta e passe mais um mês trabalhando no acordo inicial, o mês excedente lhe custará aproximadamente R$670. Claro que, se houver uma nova demanda no projeto, o mês excedente lhe custará mais R$2.000.
+Sou um cara metódico, e estabeleci que ao menos no começo estarei cobrando R$20 por hora de trabalho, com valor máximo mensal de R$2.000. Então se um projeto passar deste valor, eu consigo dividi-lo em alguns meses para trabalhar nele.
 
-Para trabalhar, costumo pegar um copo com agua, ligar alguma musica no Spotify e colocar o cronômetro para rodar. Reservo 4 horas por dia, podendo ser divido entre manhã e tarde, pois meu curso é período matutino (Manhã e tarde), ou tarde e noite, pois sou humano e as vezes preciso dormir pela manhã.
+Para trabalhar, costumo pegar um copo com agua, ligar alguma musica no Spotify (de preferencia um rock leve) e colocar o cronômetro para rodar. Reservo 4 horas por dia, podendo ser divido entre manhã e tarde, pois meu curso é período matutino (Manhã e tarde), ou tarde e noite, pois sou humano e as vezes preciso dormir pela manhã.
 
-Gosto muito de gerar relatório de atividades, então caso o cliente queira, posso gerar um breve relatório das atividades contendo horário de inicio, horário de termino, modificações feitas, duvidas, etc. Para gerenciar os projetos eu gosto muito de utilizar o GIT, portanto tenho conhecimento e certa facilidade com este tipo de ferramenta.
+Gosto de gerar relatório de atividades, então caso o cliente queira, posso gerar um breve relatório contendo horário de inicio dos trabalhos, horário de término, modificações feitas, duvidas, etc. Para gerenciar os projetos eu gosto muito de utilizar o GIT, portanto tenho conhecimento e certa facilidade com este tipo de ferramenta.
 
 Caso queira me contratar, você pode me encontrar no [Workana](https://www.workana.com/freelancer/7577f01765503cb46109e759038a8009).
 
 ## E o futuro?
 
-Bem, minha pretenção é entrar em alguma empresa do ramo de desenvolvimento móvel e ser um dos melhores programadores da área. Quem sabe um dia trabalhar na apple, ou alguma dessas grandes empresas e ser destaque.
+Bem, minha pretenção é entrar em alguma empresa do ramo de desenvolvimento móvel e ser um dos melhores programadores da área. Quem sabe um dia trabalhar na apple, ou alguma dessas grandes empresas e ser destaque (sonhar é de graça né...?).
