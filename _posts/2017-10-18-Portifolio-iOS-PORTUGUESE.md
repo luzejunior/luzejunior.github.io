@@ -87,29 +87,48 @@ Mais uma vez, para o meu azar, o ministro apesar de gostar da aplicação, decid
 Você pode encontrar o código fonte deste aplicativo no meu GitHub: [Repositório MDS-BolsaFamilia](https://github.com/luzejunior/MDS-BolsaFamilia)
 
 ## Wiit.Live:
-| ![MainScreen]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.40.20.png) |
+
+| ![Main]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.40.20.png) |
 |:--:|
 | *Tela principal do app* |
 
 | ![Chat]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.46.57.png) |
 |:--:|
-| *Tela principal do app* |
+| *Tela de Chat* |
 
 | ![Questions]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.14.png) |
 |:--:|
-| *Tela principal do app* |
+| *Tela de Perguntas e respostas* |
 
 | ![Quizz]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.31.png) |
 |:--:|
-| *Tela principal do app* |
+| *Tela de Quizz* |
 
 | ![Callendar]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.38.png) |
 |:--:|
-| *Tela principal do app* |
+| *Tela de calendário* |
 
 | ![VideoPlayer]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.56.png) |
 |:--:|
+| *Tela de calendário com o player de video* |
+
+## VNA App:
+
+| ![Main]({{ site.baseurl }}/images/VNA/Simulator Screen Shot - iPhone 6s Plus - 2018-12-03 at 13.14.04.png) |
+|:--:|
 | *Tela principal do app* |
+
+| ![Menu]({{ site.baseurl }}/images/VNA/Simulator Screen Shot - iPhone 6s Plus - 2018-12-03 at 13.14.10.png) |
+|:--:|
+| *Tela de Menu* |
+
+| ![Perfil]({{ site.baseurl }}/images/VNA/Simulator Screen Shot - iPhone 6s Plus - 2018-12-03 at 13.15.00.png) |
+|:--:|
+| *Tela de Perfil* |
+
+| ![Vaga]({{ site.baseurl }}/images/VNA/Simulator Screen Shot - iPhone 6s Plus - 2018-12-03 at 13.19.14.png) |
+|:--:|
+| *Tela de Descrição da vaga* |
 
 ## Trabalhando como Freelancer:
 
@@ -117,7 +136,7 @@ Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para 
 
 Sou um cara metódico, e estabeleci que ao menos no começo estarei cobrando R$60 por hora de trabalho.
 
-Para trabalhar, costumo pegar um copo com agua, ligar alguma musica no Spotify (de preferencia um rock leve) e colocar o cronômetro para rodar. Reservo 4 horas por dia, podendo ser divido entre manhã e tarde, pois meu curso é período matutino (Manhã e tarde), ou tarde e noite, pois sou humano e as vezes preciso dormir pela manhã.
+Como trabalho o dia inteiro (das 9 até as 18), costumo deixar as noites e finais de semana para trabalhar nos projetos, dispondo das 19-23 de segunda a sexta e das 10-18 de sábado e domingo.
 
 Gosto de gerar relatório de atividades, então caso o cliente queira, posso gerar um breve relatório contendo horário de inicio dos trabalhos, horário de término, modificações feitas, duvidas, etc. Para gerenciar os projetos eu gosto muito de utilizar o GIT, portanto tenho conhecimento e certa facilidade com este tipo de ferramenta.
 
