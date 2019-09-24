@@ -8,21 +8,21 @@ Este é o meu portfólio de Aplicações iOS que eu desenvolvi. Aqui você vai e
 ## Minha História como desenvolvedor iOS:
 
 Olá, caso você ainda não me conheça, você pode saber um pouco sobre minha pessoa na sessão ["About"](https://luzejunior.github.io/about/) deste site.
-Mas neste portfólio eu vou falar um pouco de como comecei a programar e mais que isso, aprendi a gostar desta linguagem de programação chamada Swift e tudo que envolve desenvolvimento mobile para iOS.
+Mas neste portfólio eu vou falar um pouco de como comecei a programar, e mais que isso, aprendi a gostar desta linguagem de programação chamada Swift e tudo que envolve desenvolvimento mobile para iOS.
 
-Desde criança sempre fui curioso para saber como as coisas funcionavam, e no começo da era dos Smartphones eu sempre me perguntava como que funcionava a programação para este tipo de dispositivo. Então comecei a estudar por conta própria sobre Programação Android e iOS, mas infelizmente pela falta de um Apple Device, eu não pude me aprofundar muito no fechado e recluso mundo dela mesma.
+Desde criança sempre fui curioso para saber como as coisas funcionavam, e no começo da era dos Smartphones eu sempre me perguntava como que funcionava a programação para dispositivos móveis. Então comecei a estudar por conta própria sobre Programação Android e iOS, mas infelizmente por não ter um iDevice, não tive muita oportunidade de me aprofundar tanto quanto gostaria no mundo do desenvolvimento Apple.
 
-Um belo dia, no fim de 2015, muito tempo depois da minha infância, já de barba, na universidade e trabalhando no LAViD (Laboratório de Aplicações de Video Digital da Universidade Federal da Paraíba), apareceu a oportunidade de trabalhar em um projeto chamado de ["Culturi"](http://www.culturi.com.br/), que nada mais era que uma rede social de eventos em parceria com o Ministério da Cultura. Então, participando do projeto, fui escalado para fazer um aplicativo para iOS complementar ao Culturi completamente do zero, em no máximo dois meses. Problema nenhum, certo? ERRADO, pois eu não tinha NENHUMA experiência com Swift, muito menos um Mac.
+No fim de 2015, enquanto estudava na Universidade Federal da Paraíba, e trabalhava no LAViD (Laboratório de Aplicações de Video Digital), comecei a trabalhar em um projeto chamado ["Culturi"](http://www.culturi.com.br/), que era uma rede social de eventos em parceria com o Ministério da Cultura. Então, participando do projeto, fui escalado para fazer um aplicativo para iOS complementar ao Culturi completamente do zero, em no máximo dois meses. E é ai que começa a minha aventura de aprender a programar em uma linguagem relativamente simples, mas com uma arquitetura bem complexa em menos de um mês, para desenvolver o mais rápido possível um aplicativo em dois meses, utilizando um Macbook Pro late 2011 do meu Orientador na Universidade. O projeto saiu, e se chamava ["Meu olhar"](http://meuolhar.culturi.com.br/). Mas, infelizmente ele foi interrompido pelos novos ministros da cultura no final de 2016.
 
-E é ai que começa a minha aventura de aprender a programar em uma linguagem relativamente simples, mas com uma arquitetura bem complexa em menos de um mês para desenvolver o mais rápido possível um aplicativo em dois meses, utilizando um Macbook Pro late 2011 de um do meu Orientador na Universidade. O projeto saiu, e se chama ["Meu olhar"](http://meuolhar.culturi.com.br/). Mas, infelizmente ele foi interrompido pelos novos ministros da cultura do nosso novo presidente da república no final de 2016.
+Como tomei gosto pelo desenvolvimento mobile, resolvi que continuaria nesta área, e ai, no começo de 2017 veio o segundo projeto. Dessa vez em parceria com o Ministério do Desenvolvimento Social. Desenvolvi um aplicativo do "Bolsa Família" para os beneficiários ficarem por dentro das noticias, novidades, datas de pagamento, etc.
 
-Como tomei gosto pelo desenvolvimento mobile, resolvi que continuaria nesta área, e ai, no começo de 2017 veio o segundo projeto. Dessa vez em parceria com o Ministério do Desenvolvimento Social, desenvolvi um aplicativo do "Bolsa Família" para os beneficiários ficarem por dentro das noticias, novidades, datas de pagamento, etc.
+Como freelancer, participei do desenvolvimento do aplicativo "Schoolastic", que é uma plataforma de gerenciamento de alunos, onde os pais podem ter total controle das atividades do seu filho na escola. Também desenvolvi o aplicativo do Wiit.live, uma plataforma de venda e transmissão de videos online, onde pude inclusive desenvolver um player de video totalmente em Swift. Converti também um template de app comprado em um site de venda de templates para um modelo de app onde os usuários poderiam postar vagas de empregos totalmente funcional. 
 
-Hoje eu tento a sorte como freelancer, posso desenvolver aplicativos nativos do zero, ou fazer alterações pontuais em aplicativos. Tenho conhecimento em diversos frameworks como AFNetworking, Alamofire, todas as API's do facebook, twitter, google maps, e qualquer outra coisa que o cliente desejar. Caso eu não saiba, eu procuro, pesquiso e aprendo. Tento sempre dar o melhor da minha pessoa em tudo que faço e tenho mania de ser organizado com as minhas coisas. Qualquer dúvidas, você, caro leitor (ou cliente) pode me mandar uma mensagem no meu email pessoal, que você pode ver clicando [aqui](https://luzejunior.github.io/about/).
+Atualmente trabalho como desenvolvedor iOS na Invillia numa equipe que trabalha para o PagSeguro (PagBank), e cuido da parte de Membership, desenvolvendo a parte mobile iOS da sessão "Indique e Ganhe" do aplicativo "PagBank".
 
-Atualmente utilizo um Macbook Pro 13 2017 para programar, e disponho de 4 dispositivos para teste, sendo eles: iPhone 7 (iOS 10.3.3), iPhone 6 (iOS 9.3.5), e dois iPad Mini 2 (um com iOS 9.3.5 e outro com iOS 8.4). Como sou Apple Entusiasta, possuo outros dispositivos como iPods e iPhones antigos, mas infelizmente eles não servem para teste, e são apenas itens de coleção.
+Utilizo um Macbook Pro 13 2017 para programar, e disponho de 4 dispositivos para teste, sendo eles: iPhone 7 (iOS 12), iPhone 6 (iOS 12), iPhone XR (iOS 12) e dois iPad Mini 2 (um com iOS 9.3.5 e outro com iOS 8.4). Como sou Apple Entusiasta, possuo outros dispositivos como iPods e iPhones antigos, mas infelizmente eles não servem para teste, e são apenas itens de coleção.
 
-Se você leu até aqui, muito obrigado! Vou deixar de besteira e ir logo ao que interessa: O portfólio.
+Abaixo você pode ver alguns exemplos dos apps que eu desenvolvi:
 
 ## Meu Olhar:
 
@@ -86,18 +86,39 @@ Mais uma vez, para o meu azar, o ministro apesar de gostar da aplicação, decid
 
 Você pode encontrar o código fonte deste aplicativo no meu GitHub: [Repositório MDS-BolsaFamilia](https://github.com/luzejunior/MDS-BolsaFamilia)
 
+## Wiit.Live:
+| ![MainScreen]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.40.20.png) |
+|:--:|
+| *Tela principal do app* |
+
+| ![Chat]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.46.57.png) |
+|:--:|
+| *Tela principal do app* |
+
+| ![Questions]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.14.png) |
+|:--:|
+| *Tela principal do app* |
+
+| ![Quizz]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.31.png) |
+|:--:|
+| *Tela principal do app* |
+
+| ![Callendar]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.38.png) |
+|:--:|
+| *Tela principal do app* |
+
+| ![VideoPlayer]({{ site.baseurl }}/images/WiitLive/Screen Shot 2018-10-03 at 10.47.56.png) |
+|:--:|
+| *Tela principal do app* |
+
 ## Trabalhando como Freelancer:
 
-Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para Clientes, mas estou disponível para ser contratado por alguma empresa que está precisando de um programador Swift. Tenho 2 anos de experiência com Swift, e estou sempre estudando pra aprender mais sobre a linguagem para melhorar o meu trabalho.
+Atualmente estou trabalhando como freelancer desenvolvendo aplicativos iOS para Clientes. Tenho 4 anos de experiência com Swift, e estou sempre estudando pra aprender mais sobre a linguagem para melhorar o meu trabalho.
 
-Sou um cara metódico, e estabeleci que ao menos no começo estarei cobrando R$20 por hora de trabalho, com valor máximo mensal de R$2.000. Então se um projeto passar deste valor, eu consigo dividi-lo em alguns meses para trabalhar nele.
+Sou um cara metódico, e estabeleci que ao menos no começo estarei cobrando R$60 por hora de trabalho.
 
 Para trabalhar, costumo pegar um copo com agua, ligar alguma musica no Spotify (de preferencia um rock leve) e colocar o cronômetro para rodar. Reservo 4 horas por dia, podendo ser divido entre manhã e tarde, pois meu curso é período matutino (Manhã e tarde), ou tarde e noite, pois sou humano e as vezes preciso dormir pela manhã.
 
 Gosto de gerar relatório de atividades, então caso o cliente queira, posso gerar um breve relatório contendo horário de inicio dos trabalhos, horário de término, modificações feitas, duvidas, etc. Para gerenciar os projetos eu gosto muito de utilizar o GIT, portanto tenho conhecimento e certa facilidade com este tipo de ferramenta.
 
 Caso queira me contratar, você pode me encontrar no [Workana](https://www.workana.com/freelancer/7577f01765503cb46109e759038a8009).
-
-## E o futuro?
-
-Bem, minha pretenção é entrar em alguma empresa do ramo de desenvolvimento móvel e ser um dos melhores programadores da área. Quem sabe um dia trabalhar na apple, ou alguma dessas grandes empresas e ser destaque (sonhar é de graça né...?).
